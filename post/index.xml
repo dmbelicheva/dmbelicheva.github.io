@@ -1,22 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Academic</title>
-    <link>https://example.com/post/</link>
-      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | Belicheva Daria</title>
+    <link>https://dmbelicheva.github.io/post/</link>
+      <atom:link href="https://dmbelicheva.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://dmbelicheva.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://example.com/post/</link>
+      <link>https://dmbelicheva.github.io/post/</link>
     </image>
     
     <item>
-      <title>Оформление отчета</title>
-      <link>https://example.com/post/post-3/</link>
+      <title>Programming languages C.</title>
+      <link>https://dmbelicheva.github.io/post/post-5/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-3/</guid>
+      <guid>https://dmbelicheva.github.io/post/post-5/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-the-c-language&#34;&gt;Introduction to the C language&lt;/h1&gt;
+&lt;p&gt;The C programming language was created by Dennis Ritchie of AT&amp;amp;T Bell Laboratories as a high-level programming language for developing the UNIX operating system. Currently, the language is widely used in various fields. C is especially popular with system programmers because it allows you to write programs simply and concisely.&lt;/p&gt;
+&lt;p&gt;The main book describing the C language is the book by Brian Kernighan and Dennis Ritchie &amp;ldquo;The C Programming Language&amp;rdquo; (1978). Books on the C language were written by Bolon (1986), Gehani (1984), Hancock and Krieger (1986), Harbison and Steele (1984) and many others.&lt;/p&gt;
+&lt;p&gt;In this appendix, we will try to give a fairly complete introduction to C, so that those who are familiar with high-level languages such as Pascal, PL/1 or Modula 2 will be able to understand most of the MINIX code given in this book. C features that are not used in MINIX are not discussed here. Numerous subtle points are omitted. The emphasis is on reading C programs, not writing code.&lt;/p&gt;
+&lt;h1 id=&#34;basics-of-the-c-language&#34;&gt;Basics of the C language&lt;/h1&gt;
+&lt;p&gt;A C program consists of a set of procedures (often called functions, even if they do not return values). These procedures contain declarations, operators, and other elements that together tell the computer what to do. Figure A-1 shows a small procedure in which three integer variables are declared and values are assigned to them. The name of the procedure is main. The procedure has no formal parameters, as indicated by the absence of any identifiers between the brackets behind the procedure name. The procedure body is enclosed in curly brackets ( { } ). This example shows that C has variables, and that these variables must be declared before use. C also has operators, in this example these are assignment operators. All operators must end with a semicolon (unlike Pascal, who uses colons between operators, not after them).
+Comments start with the characters &amp;quot; / &lt;em&gt;&amp;quot; and end with the characters &amp;ldquo;&lt;/em&gt; /&amp;rdquo; and can take up several lines.&lt;/p&gt;
+&lt;h1 id=&#34;basic-data-types&#34;&gt;Basic Data types&lt;/h1&gt;
+&lt;p&gt;Programs operate with various data, which can be simple and structured. Simple data is integers and real numbers, symbols and pointers (addresses of objects in memory). Integers do not have, and real numbers have a fractional part. Structured data is arrays and structures; they will be discussed below.&lt;/p&gt;
+&lt;p&gt;The language distinguishes between the concepts of &amp;ldquo;data type&amp;rdquo; and &amp;ldquo;type modifier&amp;rdquo;. A data type is, for example, an integer, and a modifier is signed or unsigned. A signed integer will have both positive and negative values, and an unsigned integer will have only positive values. In the C language, five basic types can be distinguished, which are defined by the following keywords:
+char - character;
+int - whole;
+float - real;
+double - real double precision;
+void - doesn&amp;rsquo;t matter.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s give them a brief description:&lt;/p&gt;
+&lt;p&gt;A variable of type char has a size of 1 byte, its values are various characters from the code table, for example: &amp;lsquo;f&amp;rsquo;, &amp;lsquo;:&amp;rsquo;, &amp;lsquo;j&amp;rsquo; (when written in the program, they are enclosed in single quotes).
+The size of an int type variable is not defined in the C language standard. In most programming systems, the size of an int variable corresponds to the size of an entire machine word. For example, in compilers for 16-bit processors, an int variable has a size of 2 bytes. In this case, the signed values of this variable can range from -32768 to 32767.
+The float keyword allows you to define variables of real type. Their values have a fractional part separated by a dot, for example: -5.6, 31.28, etc. Real numbers can also be written in floating point form, for example: -1.09e+4. The number before the symbol &amp;ldquo;e&amp;rdquo; is called the mantissa, and after the &amp;ldquo;e&amp;rdquo; - the order. A variable of the float type occupies 32 bits in memory. It can take values in the range from 3.4e-38 to 3.4e+38.
+The double keyword allows you to define a double-precision real variable. It takes up twice as much space in memory as a float variable (i.e. its size is 64 bits). A double variable can take values in the range from 1.7e-308 to 1.7e+308.
+The void keyword (meaningless) is used to neutralize the value of an object, for example, to declare a function that does not return any values.
+An object of some basic type can be modified. For this purpose, special keywords called modifiers are used. The C ANSI standard has the following type modifiers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;unsigned&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;signed&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;short&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;long&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Modifiers are written before type specifiers, for example: unsigned char. If a specifier is omitted after the modifier, then the compiler assumes that this specifier is int. Thus, the following lines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;long a;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;long int a;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;are identical and define object a as a long integer. Table 1 illustrates possible combinations of modifiers (unsigned, signed, short, long) with specifiers (char, int, float and double), and also shows the size and range of object values (for 16-bit compilers).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Оформление отчета</title>
+      <link>https://dmbelicheva.github.io/post/post-3/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dmbelicheva.github.io/post/post-3/</guid>
       <description>&lt;h2 id=&#34;что-такое-отчет&#34;&gt;Что такое отчет?&lt;/h2&gt;
 &lt;p&gt;Отчёт — это структурированное сообщение о результатах вашей работы, которое вы делаете в устной или письменной форме.&lt;/p&gt;
 &lt;p&gt;Обычно в отчете должны присутствовать следующие элементы:&lt;/p&gt;
@@ -42,9 +96,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-1/</link>
+      <link>https://dmbelicheva.github.io/post/week-1/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-1/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-1/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -60,9 +114,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-2/</link>
+      <link>https://dmbelicheva.github.io/post/week-2/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-2/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-2/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -81,9 +135,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-3/</link>
+      <link>https://dmbelicheva.github.io/post/week-3/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-3/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-3/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -101,9 +155,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-4/</link>
+      <link>https://dmbelicheva.github.io/post/week-4/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-4/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-4/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -117,24 +171,41 @@
     </item>
     
     <item>
-      <title>Управление версиями. Git.</title>
-      <link>https://example.com/post/post-1/</link>
+      <title>Пост по прошедшей неделе</title>
+      <link>https://dmbelicheva.github.io/post/week-5/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-1/</guid>
-      <description>&lt;h2 id=&#34;системы-контроля-версий&#34;&gt;Системы контроля версий&lt;/h2&gt;
-&lt;p&gt;Системы контроля версий (Version Control System, VCS) применяются при работе нескольких человек над одним проектом. Обычно основное дерево проекта хранится в локальном или удалённом репозитории, к которому настроен доступ для участников проекта. При
-внесении изменений в содержание проекта система контроля версий позволяет их фиксировать, совмещать изменения, произведённые разными участниками проекта, производить откат к любой более ранней версии проекта, если это требуется.&lt;/p&gt;
-&lt;p&gt;В классических системах контроля версий используется централизованная модель, предполагающая наличие единого репозитория для хранения файлов. Выполнение большинства функций по управлению версиями осуществляется специальным сервером. Участник проекта (пользователь) перед началом работы посредством определённых команд получает нужную ему версию файлов. После внесения изменений, пользователь размещает новую версию в хранилище. При этом предыдущие версии не удаляются из центрального хранилища и к ним можно вернуться в любой момент. Сервер может сохранять не полную версию изменённых файлов, а производить так называемую дельтакомпрессию — сохранять только изменения между последовательными версиями, что позволяет уменьшить объём хранимых данных.&lt;/p&gt;
-&lt;p&gt;Системы контроля версий поддерживают возможность отслеживания и разрешения конфликтов, которые могут возникнуть при работе нескольких человек над одним файлом. Можно объединить (слить) изменения, сделанные разными участниками (автоматически или вручную), вручную выбрать нужную версию, отменить изменения вовсе или заблокировать файлы для изменения. В зависимости от настроек блокировка не позволяет другим пользователям получить рабочую копию или препятствует изменению рабочей копии файла средствами файловой системы ОС, обеспечивая таким образом, привилегированный доступ только одному пользователю, работающему с файлом.&lt;/p&gt;
-&lt;p&gt;Системы контроля версий также могут обеспечивать дополнительные, более гибкие функциональные возможности. Например, они могут поддерживать работу с несколькими версиями одного файла, сохраняя общую историю изменений до точки ветвления версий и собственные истории изменений каждой ветви. Кроме того, обычно доступна информация о том, кто из участников, когда и какие изменения вносил. Обычно такого рода информация хранится в журнале изменений, доступ к которому можно ограничить.&lt;/p&gt;
-&lt;p&gt;В отличие от классических, в распределённых системах контроля версий центральный репозиторий не является обязательным.&lt;/p&gt;
-&lt;p&gt;Среди классических VCS наиболее известны CVS, Subversion, а среди распределённых — Git, Bazaar, Mercurial. Принципы их работы схожи, отличаются они в основном
-синтаксисом используемых в работе команд.&lt;/p&gt;
+      <guid>https://dmbelicheva.github.io/post/week-5/</guid>
+      <description>&lt;h2 id=&#34;goals-of-the-past-week&#34;&gt;Goals of the past week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Perform two laboratory work on the subject of operating systems.&lt;/li&gt;
+&lt;li&gt;Write a program.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;execution-process&#34;&gt;Execution process&lt;/h2&gt;
+&lt;p&gt;This week I finally completed the laboratory work. Honestly, it wasn&amp;rsquo;t easy, but I was able to overcome all the difficulties and cope with these unbearable lags. Despite all the pain they caused me, I think they also helped me a lot. These labs have tempered my character, strengthened my inner core and prepared me for a thorny future. Thank you, Dmitry Sergeevich.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;The week turned out to be productive.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Управление версиями. Git.</title>
+      <link>https://dmbelicheva.github.io/post/post-1/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dmbelicheva.github.io/post/post-1/</guid>
+      <description>&lt;h2 id=&#34;version-control-systems&#34;&gt;Version control systems&lt;/h2&gt;
+&lt;p&gt;Version Control Systems (VCS) are used when several people work on one project. Usually, the main project tree is stored in a local or remote repository, to which access is configured for project participants. By
+when making changes to the project content, the version control system allows you to fix them, combine changes made by different project participants, roll back to any earlier version of the project, if required.&lt;/p&gt;
+&lt;p&gt;In classical version control systems, a centralized model is used, assuming a single repository for storing files. Most version control functions are performed by a special server. The project participant (user) receives the version of files he needs before starting work through certain commands. After making changes, the user places the new version in the repository. At the same time, previous versions are not deleted from the central repository and you can return to them at any time. The server may not save the full version of the modified files, but perform a so—called delta compression - save only changes between successive versions, which reduces the amount of data stored.&lt;/p&gt;
+&lt;p&gt;Version control systems support the ability to track and resolve conflicts that may arise when several people work on a single file. You can merge (merge) changes made by different participants (automatically or manually), manually select the desired version, cancel the changes altogether or lock files for modification. Depending on the settings, the lock does not allow other users to get a working copy or prevents changing the working copy of the file by means of the OS file system, thus providing privileged access to only one user working with the file.&lt;/p&gt;
+&lt;p&gt;Version control systems can also provide additional, more flexible functionality. For example, they can support working with multiple versions of a single file, keeping a common history of changes up to the point of branching versions and their own change histories of each branch. In addition, information is usually available about which of the participants, when and what changes were made. Usually this kind of information is stored in the change log, access to which can be restricted.&lt;/p&gt;
+&lt;p&gt;Unlike the classical ones, in distributed version control systems, a central repository is not mandatory.
+Among the classic VCS, the most famous are CVS, Subversion, and among the distributed ones — Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
+the syntax of the commands used in the work.&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
-&lt;p&gt;Git - это консольная утилита, для отслеживания и ведения истории изменения файлов, в вашем проекте. Чаще всего его используют для кода, но можно и для других файлов. Например, для картинок - полезно для дизайнеров.&lt;/p&gt;
-&lt;p&gt;С помощью Git-a вы можете откатить свой проект до более старой версии, сравнивать, анализировать или сливать свои изменения в репозиторий.&lt;/p&gt;
-&lt;p&gt;Репозиторием называют хранилище вашего кода и историю его изменений. Git работает локально и все ваши репозитории хранятся в определенных папках на жестком диске.&lt;/p&gt;
-&lt;p&gt;Так же ваши репозитории можно хранить и в интернете. Обычно для этого используют три сервиса:&lt;/p&gt;
+&lt;p&gt;Git is a console utility for tracking and maintaining the history of file changes in your project. It is most often used for code, but it is also possible for other files. For example, for pictures - useful for designers.
+With Git-a, you can roll back your project to an older version, compare, analyze, or merge your changes into the repository.
+A repository is a repository of your code and the history of its changes. Git works locally and all your repositories are stored in specific folders on your hard drive.
+Your repositories can also be stored on the Internet. Usually three services are used for this:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;GitHub&lt;/p&gt;
@@ -146,15 +217,15 @@
 &lt;p&gt;GitLab&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Каждая точка сохранения вашего проекта носит название коммит (commit). У каждого commit-a есть hash (уникальный id) и комментарий. Из таких commit-ов собирается ветка. Ветка - это история изменений. У каждой ветки есть свое название. Репозиторий может содержать в себе несколько веток, которые создаются из других веток или вливаются в них.&lt;/p&gt;
+&lt;p&gt;Each save point of your project is called a commit. Each commit-a has a hash (unique id) and a comment. A branch is assembled from such commits. A branch is a history of changes. Each branch has its own name. A repository can contain several branches that are created from other branches or merged into them.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Языки научного программирования</title>
-      <link>https://example.com/post/post-4/</link>
+      <link>https://dmbelicheva.github.io/post/post-4/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-4/</guid>
+      <guid>https://dmbelicheva.github.io/post/post-4/</guid>
       <description>&lt;h1 id=&#34;научные-языки-программирования&#34;&gt;Научные языки программирования&lt;/h1&gt;
 &lt;p&gt;В компьютерном программировании , научный язык программирования может относиться к двум степеням той же концепции.&lt;/p&gt;
 &lt;p&gt;В широком смысле научный язык программирования - это язык программирования, который широко используется в вычислительной науке и вычислительной математике . В этом смысле C / C ++ и Python можно рассматривать как языки научного программирования.&lt;/p&gt;
@@ -173,9 +244,9 @@
     
     <item>
       <title>Языки разметки. LaTeX.</title>
-      <link>https://example.com/post/post-2/</link>
+      <link>https://dmbelicheva.github.io/post/post-2/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-2/</guid>
+      <guid>https://dmbelicheva.github.io/post/post-2/</guid>
       <description>&lt;h2 id=&#34;языки-разметки-что-это-такое&#34;&gt;Языки разметки. Что это такое?&lt;/h2&gt;
 &lt;p&gt;Язык разметки (markup language) – средство описания данных и метаданных, хранящихся в документе.&lt;/p&gt;
 &lt;p&gt;Примеры языков разметки:&lt;/p&gt;

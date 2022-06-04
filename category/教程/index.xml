@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>教程 | Academic</title>
-    <link>https://example.com/category/%E6%95%99%E7%A8%8B/</link>
-      <atom:link href="https://example.com/category/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <title>教程 | Belicheva Daria</title>
+    <link>https://dmbelicheva.github.io/category/%E6%95%99%E7%A8%8B/</link>
+      <atom:link href="https://dmbelicheva.github.io/category/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <description>教程</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://dmbelicheva.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>教程</title>
-      <link>https://example.com/category/%E6%95%99%E7%A8%8B/</link>
+      <link>https://dmbelicheva.github.io/category/%E6%95%99%E7%A8%8B/</link>
     </image>
     
     <item>
       <title>Оформление отчета</title>
-      <link>https://example.com/post/post-3/</link>
+      <link>https://dmbelicheva.github.io/post/post-3/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-3/</guid>
+      <guid>https://dmbelicheva.github.io/post/post-3/</guid>
       <description>&lt;h2 id=&#34;что-такое-отчет&#34;&gt;Что такое отчет?&lt;/h2&gt;
 &lt;p&gt;Отчёт — это структурированное сообщение о результатах вашей работы, которое вы делаете в устной или письменной форме.&lt;/p&gt;
 &lt;p&gt;Обычно в отчете должны присутствовать следующие элементы:&lt;/p&gt;
@@ -42,9 +42,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-1/</link>
+      <link>https://dmbelicheva.github.io/post/week-1/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-1/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-1/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -60,9 +60,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-2/</link>
+      <link>https://dmbelicheva.github.io/post/week-2/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-2/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-2/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -81,9 +81,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-3/</link>
+      <link>https://dmbelicheva.github.io/post/week-3/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-3/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-3/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -101,9 +101,9 @@
     
     <item>
       <title>Пост по прошедшей неделе</title>
-      <link>https://example.com/post/week-4/</link>
+      <link>https://dmbelicheva.github.io/post/week-4/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/week-4/</guid>
+      <guid>https://dmbelicheva.github.io/post/week-4/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Выполнить две лабораторные работы по предмету операционные системы.&lt;/li&gt;
@@ -118,23 +118,23 @@
     
     <item>
       <title>Управление версиями. Git.</title>
-      <link>https://example.com/post/post-1/</link>
+      <link>https://dmbelicheva.github.io/post/post-1/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-1/</guid>
-      <description>&lt;h2 id=&#34;системы-контроля-версий&#34;&gt;Системы контроля версий&lt;/h2&gt;
-&lt;p&gt;Системы контроля версий (Version Control System, VCS) применяются при работе нескольких человек над одним проектом. Обычно основное дерево проекта хранится в локальном или удалённом репозитории, к которому настроен доступ для участников проекта. При
-внесении изменений в содержание проекта система контроля версий позволяет их фиксировать, совмещать изменения, произведённые разными участниками проекта, производить откат к любой более ранней версии проекта, если это требуется.&lt;/p&gt;
-&lt;p&gt;В классических системах контроля версий используется централизованная модель, предполагающая наличие единого репозитория для хранения файлов. Выполнение большинства функций по управлению версиями осуществляется специальным сервером. Участник проекта (пользователь) перед началом работы посредством определённых команд получает нужную ему версию файлов. После внесения изменений, пользователь размещает новую версию в хранилище. При этом предыдущие версии не удаляются из центрального хранилища и к ним можно вернуться в любой момент. Сервер может сохранять не полную версию изменённых файлов, а производить так называемую дельтакомпрессию — сохранять только изменения между последовательными версиями, что позволяет уменьшить объём хранимых данных.&lt;/p&gt;
-&lt;p&gt;Системы контроля версий поддерживают возможность отслеживания и разрешения конфликтов, которые могут возникнуть при работе нескольких человек над одним файлом. Можно объединить (слить) изменения, сделанные разными участниками (автоматически или вручную), вручную выбрать нужную версию, отменить изменения вовсе или заблокировать файлы для изменения. В зависимости от настроек блокировка не позволяет другим пользователям получить рабочую копию или препятствует изменению рабочей копии файла средствами файловой системы ОС, обеспечивая таким образом, привилегированный доступ только одному пользователю, работающему с файлом.&lt;/p&gt;
-&lt;p&gt;Системы контроля версий также могут обеспечивать дополнительные, более гибкие функциональные возможности. Например, они могут поддерживать работу с несколькими версиями одного файла, сохраняя общую историю изменений до точки ветвления версий и собственные истории изменений каждой ветви. Кроме того, обычно доступна информация о том, кто из участников, когда и какие изменения вносил. Обычно такого рода информация хранится в журнале изменений, доступ к которому можно ограничить.&lt;/p&gt;
-&lt;p&gt;В отличие от классических, в распределённых системах контроля версий центральный репозиторий не является обязательным.&lt;/p&gt;
-&lt;p&gt;Среди классических VCS наиболее известны CVS, Subversion, а среди распределённых — Git, Bazaar, Mercurial. Принципы их работы схожи, отличаются они в основном
-синтаксисом используемых в работе команд.&lt;/p&gt;
+      <guid>https://dmbelicheva.github.io/post/post-1/</guid>
+      <description>&lt;h2 id=&#34;version-control-systems&#34;&gt;Version control systems&lt;/h2&gt;
+&lt;p&gt;Version Control Systems (VCS) are used when several people work on one project. Usually, the main project tree is stored in a local or remote repository, to which access is configured for project participants. By
+when making changes to the project content, the version control system allows you to fix them, combine changes made by different project participants, roll back to any earlier version of the project, if required.&lt;/p&gt;
+&lt;p&gt;In classical version control systems, a centralized model is used, assuming a single repository for storing files. Most version control functions are performed by a special server. The project participant (user) receives the version of files he needs before starting work through certain commands. After making changes, the user places the new version in the repository. At the same time, previous versions are not deleted from the central repository and you can return to them at any time. The server may not save the full version of the modified files, but perform a so—called delta compression - save only changes between successive versions, which reduces the amount of data stored.&lt;/p&gt;
+&lt;p&gt;Version control systems support the ability to track and resolve conflicts that may arise when several people work on a single file. You can merge (merge) changes made by different participants (automatically or manually), manually select the desired version, cancel the changes altogether or lock files for modification. Depending on the settings, the lock does not allow other users to get a working copy or prevents changing the working copy of the file by means of the OS file system, thus providing privileged access to only one user working with the file.&lt;/p&gt;
+&lt;p&gt;Version control systems can also provide additional, more flexible functionality. For example, they can support working with multiple versions of a single file, keeping a common history of changes up to the point of branching versions and their own change histories of each branch. In addition, information is usually available about which of the participants, when and what changes were made. Usually this kind of information is stored in the change log, access to which can be restricted.&lt;/p&gt;
+&lt;p&gt;Unlike the classical ones, in distributed version control systems, a central repository is not mandatory.
+Among the classic VCS, the most famous are CVS, Subversion, and among the distributed ones — Git, Bazaar, Mercurial. The principles of their work are similar, they differ mainly
+the syntax of the commands used in the work.&lt;/p&gt;
 &lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
-&lt;p&gt;Git - это консольная утилита, для отслеживания и ведения истории изменения файлов, в вашем проекте. Чаще всего его используют для кода, но можно и для других файлов. Например, для картинок - полезно для дизайнеров.&lt;/p&gt;
-&lt;p&gt;С помощью Git-a вы можете откатить свой проект до более старой версии, сравнивать, анализировать или сливать свои изменения в репозиторий.&lt;/p&gt;
-&lt;p&gt;Репозиторием называют хранилище вашего кода и историю его изменений. Git работает локально и все ваши репозитории хранятся в определенных папках на жестком диске.&lt;/p&gt;
-&lt;p&gt;Так же ваши репозитории можно хранить и в интернете. Обычно для этого используют три сервиса:&lt;/p&gt;
+&lt;p&gt;Git is a console utility for tracking and maintaining the history of file changes in your project. It is most often used for code, but it is also possible for other files. For example, for pictures - useful for designers.
+With Git-a, you can roll back your project to an older version, compare, analyze, or merge your changes into the repository.
+A repository is a repository of your code and the history of its changes. Git works locally and all your repositories are stored in specific folders on your hard drive.
+Your repositories can also be stored on the Internet. Usually three services are used for this:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;GitHub&lt;/p&gt;
@@ -146,15 +146,15 @@
 &lt;p&gt;GitLab&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Каждая точка сохранения вашего проекта носит название коммит (commit). У каждого commit-a есть hash (уникальный id) и комментарий. Из таких commit-ов собирается ветка. Ветка - это история изменений. У каждой ветки есть свое название. Репозиторий может содержать в себе несколько веток, которые создаются из других веток или вливаются в них.&lt;/p&gt;
+&lt;p&gt;Each save point of your project is called a commit. Each commit-a has a hash (unique id) and a comment. A branch is assembled from such commits. A branch is a history of changes. Each branch has its own name. A repository can contain several branches that are created from other branches or merged into them.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Языки научного программирования</title>
-      <link>https://example.com/post/post-4/</link>
+      <link>https://dmbelicheva.github.io/post/post-4/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-4/</guid>
+      <guid>https://dmbelicheva.github.io/post/post-4/</guid>
       <description>&lt;h1 id=&#34;научные-языки-программирования&#34;&gt;Научные языки программирования&lt;/h1&gt;
 &lt;p&gt;В компьютерном программировании , научный язык программирования может относиться к двум степеням той же концепции.&lt;/p&gt;
 &lt;p&gt;В широком смысле научный язык программирования - это язык программирования, который широко используется в вычислительной науке и вычислительной математике . В этом смысле C / C ++ и Python можно рассматривать как языки научного программирования.&lt;/p&gt;
@@ -173,9 +173,9 @@
     
     <item>
       <title>Языки разметки. LaTeX.</title>
-      <link>https://example.com/post/post-2/</link>
+      <link>https://dmbelicheva.github.io/post/post-2/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post-2/</guid>
+      <guid>https://dmbelicheva.github.io/post/post-2/</guid>
       <description>&lt;h2 id=&#34;языки-разметки-что-это-такое&#34;&gt;Языки разметки. Что это такое?&lt;/h2&gt;
 &lt;p&gt;Язык разметки (markup language) – средство описания данных и метаданных, хранящихся в документе.&lt;/p&gt;
 &lt;p&gt;Примеры языков разметки:&lt;/p&gt;

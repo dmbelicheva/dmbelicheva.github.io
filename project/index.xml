@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Academic</title>
-    <link>https://example.com/project/</link>
-      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | Belicheva Daria</title>
+    <link>https://dmbelicheva.github.io/project/</link>
+      <atom:link href="https://dmbelicheva.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://dmbelicheva.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://example.com/project/</link>
+      <link>https://dmbelicheva.github.io/project/</link>
     </image>
     
     <item>
       <title>Файловая система FAT</title>
-      <link>https://example.com/project/example/</link>
+      <link>https://dmbelicheva.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
+      <guid>https://dmbelicheva.github.io/project/example/</guid>
       <description>&lt;h1 id=&#34;введение&#34;&gt;Введение&lt;/h1&gt;
 &lt;p&gt;Информация в информационных системах (ИС) возникает в процессе обработки хранящихся данных. На компьютерах, используемых для создания ИС, данные хранятся на постоянном запоминающем устройстве (ПЗУ) в виде именованных последовательностей, называемых файлами. Хранение файлов подобно хранению книг в библиотеке, и для организации доступа к ним требуется специальная система, обеспечивающая минимизацию времени доступа и удобство работы.
 Файловая система представляет совокупность служебных структур на носителе и средств операционной системы, обеспечивающих манипуляцию файлами. (Исторически сложилось, что операционные системы семейства Windows развиваются в двух направлениях (Windows 95, Windows 98 и Windows Ме составляют одно направление, а Windows NT и Windows 2000 второе направление), предоставляющих различные средства для работы со служебными структурами и файлами).
